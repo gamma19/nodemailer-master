@@ -10,8 +10,8 @@ const transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-    from: 'ueb_@hotmail.com',
-    to: 'baki.utku@hotmail.com',
+    from: 'YOUR_EMAIL',
+    to: 'RECIEVER_EMAIL',
     subject: 'Sending Email using Node.js test.',
     text: 'Test message.'
 };
